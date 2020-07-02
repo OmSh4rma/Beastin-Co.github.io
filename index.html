@@ -148,6 +148,7 @@ body {
 }
 
 .topnav-centered a {
+    font-size: 24px;
   float: none;
   position: absolute;
   top: 50%;
@@ -173,6 +174,8 @@ body {
     transform: none;
   }
 }
+
+
 
 
 :root {
@@ -280,6 +283,100 @@ body {
   }
 }
 
+/* this is the icecrem stuff
+
+.prd-Card_Content {
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    line-height: 1.5rem;
+    text-rendering: optimizeLegibility;
+    background-color: #161616;
+    color: #ededed;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+body, html {
+    font-size: 1rem;
+}
+:root {
+    font: 1rem/1.5 Helvetica Neue Regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    cursor: auto;
+}
+:root {
+    font: 1rem/1.5 Helvetica Neue Regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    cursor: auto;
+}
+:root {
+    font: 1rem/1.5 Helvetica Neue Regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    cursor: auto;
+}
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    cursor: default;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    line-height: 1.15;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:after, :before {
+    text-decoration: inherit;
+    vertical-align: inherit;
+}
+*, :after, :before {
+    background-repeat: no-repeat;
+}
+::selection {
+    background-color: #b3d4fc;
+    color: #000;
+    text-shadow: none;
+}
+*/
+
+
 </style>
 </head>
 <body>
@@ -302,9 +399,16 @@ body {
       </a>
     </div>
     
-    <!-- Left-aligned links (default) -->
-    <a href="sneakers.html">Sneakers</a>
-    <a href="#contact">About Us</a>
+      <!-- Left-aligned links (default) -->
+      <a href="sneakers.html">Sneakers</a>
+     <a href="cart.html">About Us</a>
+      <a href="#co"><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+      <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+      </form></a>
+  
     
     <!-- Right-aligned links 
     <div class="topnav-right">
@@ -337,7 +441,7 @@ body {
     <div class="mySlides fade">
       <img src="images/Presentation 8.0011.png" style="width:100%">
       <div class="text">
-      <a class="#" href="#">
+      <a class="#" href="tee3.html">
         Dent In The Universe 
       </a>
     </div>
@@ -346,7 +450,7 @@ body {
     <div class="mySlides fade">
       <img src="images/Presentation 8.0022.png" style="width:100%">
       <div class="text">
-        <a class="t-shirtPortfolio" href="tee1.html">
+        <a class="#" href="tee1.html">
             Beastin' Logo T-Shirt
           </a>
       </div>
@@ -355,7 +459,7 @@ body {
     <div class="mySlides fade">
       <img src="images/Presentation 8.0033.png" style="width:100%">
       <div class="text">
-          <a class="#" href="#">
+          <a class="#" href="tee2.html">
         Limited Edition Sweatshirt
       </a>
     </div>
@@ -369,9 +473,58 @@ body {
       <span class="dot"></span> 
       <span class="dot"></span> 
     </div>
+<!--
+    <div class="prd-Card_Content">
 
-   
-    
+      <div class="prd-Card_Overlay">
+        <ul class="prd-Card_Options"><li class="prd-Card_Option">
+              <form class="prd-Card_Form js-AddToCart" action="/cart/add" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="32025673826398">
+                <input type="hidden" name="quantity" value="1">
+                <button type="submit" data-id="32025673826398" data-add-to-cart="" class="prd-Card_Button js-AddToCart_Submit">S
+  </button>
+              </form>
+            </li><li class="prd-Card_Option">
+              <form class="prd-Card_Form js-AddToCart" action="/cart/add" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="32025673859166">
+                <input type="hidden" name="quantity" value="1">
+                <button type="submit" data-id="32025673859166" data-add-to-cart="" class="prd-Card_Button js-AddToCart_Submit">M
+  </button>
+              </form>
+            </li><li class="prd-Card_Option">
+              <form class="prd-Card_Form js-AddToCart" action="/cart/add" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="32025673891934">
+                <input type="hidden" name="quantity" value="1">
+                <button type="submit" data-id="32025673891934" data-add-to-cart="" disabled="" class="prd-Card_Button js-AddToCart_Submit">L
+  </button>
+              </form>
+            </li><li class="prd-Card_Option">
+              <form class="prd-Card_Form js-AddToCart" action="/cart/add" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="32025673924702">
+                <input type="hidden" name="quantity" value="1">
+                <button type="submit" data-id="32025673924702" data-add-to-cart="" class="prd-Card_Button js-AddToCart_Submit">XL
+  </button>
+              </form>
+            </li><li class="prd-Card_Option">
+              <form class="prd-Card_Form js-AddToCart" action="/cart/add" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="32025673957470">
+                <input type="hidden" name="quantity" value="1">
+                <button type="submit" data-id="32025673957470" data-add-to-cart="" disabled="" class="prd-Card_Button js-AddToCart_Submit">XXL
+  </button>
+              </form>
+            </li></ul>
+      </div>
+  
+      <h2 class="prd-Card_Title">
+        <a class="prd-Card_TitleLink" href="/products/decenzo-t-shirt-yellow">
+          DECENZO T-SHIRT - YELLOW
+        </a>
+      </h2>
+  
+      <p class="prd-Card_Price"><span class="money">£65.00</span>
+  </p>
+    </div>
+  -->
     <script>
     var slideIndex = 0;
     showSlides();
